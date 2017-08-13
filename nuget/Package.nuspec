@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+    <metadata>
+    <id>Xamarin.Bindings.Tappx</id>
+    <version>1.0.0.0</version>
+    <title>Tappx SDK Binding for Xamarin.Android</title>
+    <authors>Tomasz Wiśniewski - binding library, Tappx - original SDK</authors>
+    <licenseUrl>https://github.com/tomwis/tappxbinding/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/tomwis/tappxbinding</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Binding for Tappx SDK ver. 3.0.5</description>
+    <tags>xamarin, tappx, ads, cross-promotion, android</tags>
+    <dependencies>
+      <group targetFramework="MonoAndroid10">
+        <dependency id="Xamarin.GooglePlayServices.Ads" version="42.1021.1" />
+      </group>
+    </dependencies>
+    </metadata>
+    <files>
+		<!--Xamarin.Android-->
+		<file src="..\TappxBinding\bin\Release\TappxBinding.dll" target="lib\MonoAndroid10" />
+    </files>
+</package>

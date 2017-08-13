@@ -68,7 +68,7 @@ namespace TappxBinding.Example.Droid
 
         public void OnBannerLoadFailed(TappxBanner p0, TappxAdError p1)
         {
-            System.Diagnostics.Debug.WriteLine("[TappxBanner] OnBannerLoadFailed");
+            System.Diagnostics.Debug.WriteLine("[TappxBanner] OnBannerLoadFailed: " + p1.ToString());
         }
     }
 }
